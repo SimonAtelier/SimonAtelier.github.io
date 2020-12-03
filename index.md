@@ -1,3 +1,5 @@
+[Documentation](/Artifact Documentation/Artifact Documentation.md)
+
 ![Image](logo.png)
 
 # Artifact Build Tool Documentation
