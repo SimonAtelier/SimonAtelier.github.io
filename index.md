@@ -1,4 +1,4 @@
-[Documentation](/Artifact Documentation/Artifact Documentation.md)
+[Documentation](/Artifact Documentation/Artifact Documentation/Artifact Documentation.md)
 
 ![Image](logo.png)
 
