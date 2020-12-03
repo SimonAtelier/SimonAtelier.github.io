@@ -4,10 +4,10 @@
 
 ### Artifact Syntax
 
-`<>` required argument
-`[]` optional argument (flag)
-`[][]` an array argument with values separated by commas like w20,10,5
-`pattern` a WorldEdit or Fawe pattern like `50%air`, `50%1`, `#simplex[10][3,3:1,1]` or just a single block id
+`<>` required argument  
+`[]` optional argument (flag)  
+`[][]` an array argument with values separated by commas like w20,10,5  
+`pattern` a WorldEdit or Fawe pattern like `50%air`, `50%1`, `#simplex[10][3,3:1,1]` or just a single block id  
 
 ---
 
@@ -30,13 +30,13 @@ Unbinds the currently binded tool.
 Creates a roof based on specified parameters.
 
 ###### Parameters:
-`<fill-pattern>` - the main material for the roof
-`<outline-pattern>` - the material for the outline of the roof
-`<facade-pattern>` - the material for the facade part (gable side) of the roof
+`<fill-pattern>` - the main material for the roof  
+`<outline-pattern>` - the material for the outline of the roof  
+`<facade-pattern>` - the material for the facade part (gable side) of the roof  
 
-`[w][]` *widths* - angles / widths defining the base roof shape
-`[s]` *stack* - defines the size of the ridge
-`[inset]` *inset* - defines the size of the overhang (inset on the gable side)
+`[w][]` *widths* - angles / widths defining the base roof shape  
+`[s]` *stack* - defines the size of the ridge  
+`[inset]` *inset* - defines the size of the overhang (inset on the gable side)  
 
 ###### Examples:
 
