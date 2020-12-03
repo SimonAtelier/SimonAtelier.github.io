@@ -86,24 +86,24 @@ Creates an octagonal shape with the specified size and height.
 Binds a rock brush tool to the current item in the main hand.
 
 ###### Flags:
-`[dim][]` *dimension* - the base dimension of the rock to create
-`[s]` *subdivisions* - the smoothness of the rock to create
-`[rngMin]` *range minimum* - the minimum of the used noise range
-`[rngMax]` *range maximum* - the maximum of the used noise range
-`[wf]` *wireframe* - creates the shape as wireframe
-`[hollow]` *hollow* - leaves the shape hollow inside
-`[shape]` *shape* - NOT USED
-`[rx]` *horizontal rotation* - the rotation along the x axis
-`[ry]` *vertical rotation* - the rotation along the y axis
-`[yoff]` *y-offset* - offset along the y-axis
-`[type]` *type* - the type of shape created (experimental)
+`[dim][]` *dimension* - the base dimension of the rock to create  
+`[s]` *subdivisions* - the smoothness of the rock to create  
+`[rngMin]` *range minimum* - the minimum of the used noise range  
+`[rngMax]` *range maximum* - the maximum of the used noise range  
+`[wf]` *wireframe* - creates the shape as wireframe  
+`[hollow]` *hollow* - leaves the shape hollow inside  
+`[shape]` *shape* - NOT USED  
+`[rx]` *horizontal rotation* - the rotation along the x axis  
+`[ry]` *vertical rotation* - the rotation along the y axis  
+`[yoff]` *y-offset* - offset along the y-axis  
+`[type]` *type* - the type of shape created (experimental)  
 
 To unbind the tool use:
 `/art none`
 
 type parameters:
 * 0 - default base rock
-* 1 - octahedron based shape
+* 1 - octahedron based shape  
 * 2 - pyramid based shape
 * 3 - mushroom shape
 
@@ -124,17 +124,20 @@ type parameters:
 ###### Syntax:
 `/art pipe <pattern>`
 
+###### Alias:
+`/art p <pattern>`
+
 ###### Desc:
 Extrudes a circular shape along the current curve.
 
 ###### Flags:
-`[w][]` *width* - defines one or more widths separated by comma
-`[r][]` *rotation* - defines one or more rotations (in degrees) separated by comma
-`[wf]` *wireframe* - extrudes the shape as wireframe model
-`[h]` *hollow* - extrudes the shape as hollow body
-`[points]` *points* - places only the edge points of the extruded shape
-`[res]` *resolution* - determines the resolution of the current curve (distance between the segments)
-`[rs]` *rotation segments* - determines the number of circle segments (shape to extrude)
+`[w][]` *width* - defines one or more widths separated by comma  
+`[r][]` *rotation* - defines one or more rotations (in degrees) separated by comma  
+`[wf]` *wireframe* - extrudes the shape as wireframe model  
+`[h]` *hollow* - extrudes the shape as hollow body  
+`[points]` *points* - places only the edge points of the extruded shape  
+`[res]` *resolution* - determines the resolution of the current curve (distance between the segments)  
+`[rs]` *rotation segments* - determines the number of circle segments (shape to extrude)  
 
 Example: `rs3` → Triangle
 Example: `rs4` → Quad
